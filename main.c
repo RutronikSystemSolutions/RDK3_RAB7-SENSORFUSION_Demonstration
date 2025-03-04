@@ -1,13 +1,13 @@
 /******************************************************************************
 * File Name:   main.c
 *
-* Description: This is the source code for the RDK3 Hello World
+* Description: This is the source code for the RDK3 RAB7-SENSORFUSION
 *              Application for ModusToolbox.
 *
 * Related Document: See README.md
 *
 *
-*  Created on: 2022-10-16
+*  Created on: 2025-03-04
 *  Company: Rutronik Elektronische Bauelemente GmbH
 *  Address: Jonavos g. 30, Kaunas 44262, Lithuania
 *  Author: GDR
