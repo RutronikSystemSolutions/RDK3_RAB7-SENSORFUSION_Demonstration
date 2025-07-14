@@ -4,6 +4,10 @@ This code example reads the data from all the sensors on the RAB7-SENSORFUSION a
 
  <img src="images/SensorFusion_RDK3.jpg" style="zoom:10%;" />
 
+## **NOTICE**
+
+**Infineon has discontinued the PSOC™ 64 Secured MCU product line. As a result, the CYB06447BZI-BLD53 MCU used in the RDK3 is not recommended for new designs. The Infineon CY8C6347BZI-BLD53 MCU may be considered a suitable alternative.**
+
 A list of the sensors and their addresses are given below:
 
 ```
@@ -33,13 +37,9 @@ The data of all the sensors of RAB7-SENSORFUSION is printed out to the KitProg3 
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.2**]
-- RAB7-SENSORFUSION Arduino Adapter Board.
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.2**: 
-
-1. The [Python](https://www.python.org/) has to be installed manually on Windows OS.
-2. Make sure the Python installation is added to the path variable. 
-3. Use this command to install the [cysecuretools](https://pypi.org/project/cysecuretools/) package:
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v2025.4.0** [built with **v3.2**]
+- [RAB7-SENSORFUSION](https://github.com/RutronikSystemSolutions/RAB7_SENSORFUSION_Documents) Arduino Adapter Board.
+- The [Python](https://www.python.org/) has to be installed manually on Windows OS. Make sure the Python installation is added to the path variable. Use this command to install the [cysecuretools](https://pypi.org/project/cysecuretools/) package:
 
 ```
 pip install cysecuretools
@@ -58,6 +58,8 @@ The “[Secure Policy Configurator](https://www.infineon.com/dgdl/Infineon-Modus
 The CYB06447BZI-BLD53 MCU must be powered from a 2.5V power source to be able to complete the provisioning. The RDK3 has an SMPS [Switching Mode Power Supply] which can be easily adjusted to provide 3.3V or 2.5V to the MCU by switching the slide-switch “SW1” on the bottom side of the board. 
 
 <img src="C:/Users/GDR/mtw/RDK3_I2C_Address_Scanner/images/voltage_switch.jpg" style="zoom:50%;" />
+
+The default keys and policies also might be downloaded from here: [RDK3 RUTRONIK DEMO KEYS](https://github.com/RutronikSystemSolutions/RDK3_Documents/tree/main/RDK3%20RUTRONIK%20DEMO%20Keys)
 
 ## Using the code example
 
